@@ -1,3 +1,11 @@
+/**
+ * The EnergyUsageNotificationSystem class is responsible for monitoring and
+ * notifying users when their energy usage exceeds a predefined limit.
+ *
+ * This system allows the user to define a maximum energy usage limit
+ * (usageBeforeNotice). The current energy usage can be updated,
+ * and if the usage surpasses the set limit, a notification is triggered.
+ */
 public class EnergyUsageNotificationSystem {
     private float usageBeforeNotice;
     private float currentUsage;
