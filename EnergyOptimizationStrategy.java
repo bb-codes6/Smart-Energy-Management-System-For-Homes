@@ -1,3 +1,9 @@
+/**
+ * The EnergyOptimizationStrategy abstract class is the parent class for the
+ * BasicEnergySavingStrategy and the AIEnhancedEnergySavingStrategy classes.
+ * It includes methods to predict energy usage and forecast energy consumption.
+ */
+
 // Abstract strategy class
 public abstract class EnergyOptimizationStrategy {
     float energyUse;
@@ -26,9 +32,8 @@ public abstract class EnergyOptimizationStrategy {
     }
 }
 
-// Notification system class
 
-// Concrete strategy 1
+// Child class inherits from parent class
 class AIEnhancedEnergySavingStrategy extends EnergyOptimizationStrategy {
     @Override
     public void analyzeEnergyUsage() {
@@ -41,7 +46,7 @@ class AIEnhancedEnergySavingStrategy extends EnergyOptimizationStrategy {
     }
 }
 
-// Concrete strategy 2
+// Child class inherits from parent class
 class BasicEnergySavingStrategy extends EnergyOptimizationStrategy {
     @Override
     public void analyzeEnergyUsage() {
